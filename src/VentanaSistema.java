@@ -274,7 +274,7 @@ public class VentanaSistema extends JFrame{
     public static void main(String[] args) {
         VentanaSistema v = new VentanaSistema();
         v.setContentPane(v.miPanelPrincipal);
-        v.setSize(500,500);
+        v.setSize(700,500);
         v.setTitle("Clinica San Mungo");
         v.setDefaultCloseOperation(EXIT_ON_CLOSE);
         v.setLocationRelativeTo(null);

@@ -25,7 +25,7 @@ public class Login extends JFrame{
                     //si es el usuario
                     JOptionPane.showMessageDialog(miPanel, "Bienvenido Usuario");
                     String[] tipoUsuario={"user"};
-                    VentanaSistema.main(tipoUsuario);
+                    VentanaSistemaBusqueda.main(tipoUsuario);
                     dispose();
                 }else{
                     //usuario o contra no validas

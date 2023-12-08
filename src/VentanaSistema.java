@@ -75,6 +75,7 @@ public class VentanaSistema extends JFrame{
                 cmbDia.setSelectedIndex(0);
                 cmbMes.setSelectedIndex(0);
                 cmbAnio.setSelectedIndex(0);
+                txtFechaNac.setText("");
             }
         });
 
@@ -218,7 +219,8 @@ public class VentanaSistema extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 txtIdCita.setText("");
                 spnNumConsC.setValue(0);
-
+                txtMotivo.setText("");
+                txtFecha.setText("");
             }
         });
 
